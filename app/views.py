@@ -35,5 +35,12 @@ def voucher(request):
 def vouchpage(request):
     return render(request, 'vouchpage.html')
 
+def trail(request):
+    return render(request, 'trail.html')
+def capital(request):
+    return render(request, 'capital.html')
+def month(request):
+    return render(request, 'month.html')
+
 
 

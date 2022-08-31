@@ -14,6 +14,10 @@ urlpatterns = [
     path('costcentr',views.costcentr,name='costcentr'),
     path('voucher',views.voucher,name='voucher'),
     path('vouchpage',views.vouchpage,name='vouchpage'),
+      path('trail',views.trail,name='trail'),
+      path('capital',views.capital,name='capital'),
+       path('month',views.month,name='month'),
+
 
 
 
